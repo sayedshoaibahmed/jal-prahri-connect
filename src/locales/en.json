@@ -1,0 +1,76 @@
+{
+  "auth": {
+    "login": "Login",
+    "phone": "Phone Number",
+    "otp": "OTP",
+    "pin": "PIN",
+    "sendOtp": "Send OTP",
+    "verify": "Verify",
+    "setPin": "Set PIN",
+    "offlineLogin": "Offline Login"
+  },
+  "operator": {
+    "dashboard": "Operator Dashboard",
+    "pumpList": "Pump List",
+    "addReport": "Add Report",
+    "waterQuality": "Water Quality",
+    "working": "Working",
+    "faulty": "Faulty",
+    "maintenance": "Maintenance",
+    "operatingHours": "Operating Hours"
+  },
+  "gp": {
+    "dashboard": "GP Dashboard",
+    "pumpOverview": "Pump Overview",
+    "alerts": "Alerts",
+    "reports": "Reports",
+    "mapView": "Map View",
+    "totalPumps": "Total Pumps",
+    "workingPumps": "Working Pumps",
+    "faultyPumps": "Faulty Pumps"
+  },
+  "waterQuality": {
+    "ph": "pH Level",
+    "turbidity": "Turbidity",
+    "chlorine": "Chlorine",
+    "temperature": "Temperature",
+    "testKitPhoto": "Test Kit Photo",
+    "normal": "Normal",
+    "warning": "Warning",
+    "critical": "Critical"
+  },
+  "reports": {
+    "voiceReport": "Voice Report",
+    "location": "Location",
+    "pumpDetails": "Pump Details",
+    "recording": "Recording",
+    "submit": "Submit",
+    "description": "Description"
+  },
+  "status": {
+    "online": "Online",
+    "offline": "Offline",
+    "syncing": "Syncing",
+    "pendingSync": "Pending Sync",
+    "lastSync": "Last Sync"
+  },
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "edit": "Edit",
+    "delete": "Delete",
+    "view": "View",
+    "approve": "Approve",
+    "pending": "Pending",
+    "completed": "Completed",
+    "loading": "Loading",
+    "error": "Error",
+    "success": "Success",
+    "today": "Today",
+    "yesterday": "Yesterday",
+    "thisWeek": "This Week"
+  },
+  "app": {
+    "title": "Water Supply Monitoring"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "auth": {
+    "login": "ಲಾಗಿನ್",
+    "phone": "ಫೋನ್ ಸಂಖ್ಯೆ",
+    "otp": "OTP",
+    "pin": "PIN",
+    "sendOtp": "OTP ಕಳುಹಿಸಿ",
+    "verify": "ಪರಿಶೀಲಿಸಿ",
+    "setPin": "PIN ಹೊಂದಿಸಿ",
+    "offlineLogin": "ಆಫ್‌ಲೈನ್ ಲಾಗಿನ್"
+  },
+  "operator": {
+    "dashboard": "ಆಪರೇಟರ್ ಡ್ಯಾಶ್‌ಬೋರ್ಡ್",
+    "pumpList": "ಪಂಪ್ ಪಟ್ಟಿ",
+    "addReport": "ವರದಿ ಸೇರಿಸಿ",
+    "waterQuality": "ನೀರಿನ ಗುಣಮಟ್ಟ",
+    "working": "ಕೆಲಸ ಮಾಡುತ್ತಿದೆ",
+    "faulty": "ದೋಷಯುಕ್ತ",
+    "maintenance": "ನಿರ್ವಹಣೆ",
+    "operatingHours": "ಕಾರ್ಯಾಚರಣೆ ಸಮಯ"
+  },
+  "gp": {
+    "dashboard": "GP ಡ್ಯಾಶ್‌ಬೋರ್ಡ್",
+    "pumpOverview": "ಪಂಪ್ ಸಮೀಕ್ಷೆ",
+    "alerts": "ಎಚ್ಚರಿಕೆಗಳು",
+    "reports": "ವರದಿಗಳು",
+    "mapView": "ನಕ್ಷೆ ವೀಕ್ಷಣೆ",
+    "totalPumps": "ಒಟ್ಟು ಪಂಪ್‌ಗಳು",
+    "workingPumps": "ಕೆಲಸ ಮಾಡುವ ಪಂಪ್‌ಗಳು",
+    "faultyPumps": "ದೋಷಯುಕ್ತ ಪಂಪ್‌ಗಳು"
+  },
+  "waterQuality": {
+    "ph": "pH ಮಟ್ಟ",
+    "turbidity": "ಗಡ್ಡಲತೆ",
+    "chlorine": "ಕ್ಲೋರಿನ್",
+    "temperature": "ತಾಪಮಾನ",
+    "testKitPhoto": "ಟೆಸ್ಟ್ ಕಿಟ್ ಫೋಟೋ",
+    "normal": "ಸಾಮಾನ್ಯ",
+    "warning": "ಎಚ್ಚರಿಕೆ",
+    "critical": "ಗಂಭೀರ"
+  },
+  "reports": {
+    "voiceReport": "ಧ್ವನಿ ವರದಿ",
+    "location": "ಸ್ಥಳ",
+    "pumpDetails": "ಪಂಪ್ ವಿವರಗಳು",
+    "recording": "ರೆಕಾರ್ಡಿಂಗ್",
+    "submit": "ಸಲ್ಲಿಸಿ",
+    "description": "ವಿವರಣೆ"
+  },
+  "status": {
+    "online": "ಆನ್‌ಲೈನ್",
+    "offline": "ಆಫ್‌ಲೈನ್",
+    "syncing": "ಸಿಂಕ್ ಮಾಡುತ್ತಿದೆ",
+    "pendingSync": "ಸಿಂಕ್ ಬಾಕಿ ಇದೆ",
+    "lastSync": "ಕೊನೆಯ ಸಿಂಕ್"
+  },
+  "common": {
+    "save": "ಉಳಿಸಿ",
+    "cancel": "ರದ್ದುಮಾಡಿ",
+    "edit": "ಸಂಪಾದಿಸಿ",
+    "delete": "ಅಳಿಸಿ",
+    "view": "ವೀಕ್ಷಿಸಿ",
+    "approve": "ಅನುಮೋದಿಸಿ",
+    "pending": "ಬಾಕಿ ಇದೆ",
+    "completed": "ಪೂರ್ಣಗೊಂಡಿದೆ",
+    "loading": "ಲೋಡ್ ಆಗುತ್ತಿದೆ",
+    "error": "ದೋಷ",
+    "success": "ಯಶಸ್ಸು",
+    "today": "ಇಂದು",
+    "yesterday": "ನಿನ್ನೆ",
+    "thisWeek": "ಈ ವಾರ"
+  },
+  "app": {
+    "title": "ನೀರು ಪೂರೈಕೆ ಮೇಲ್ವಿಚಾರಣೆ"
+  }
+}
