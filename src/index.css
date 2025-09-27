@@ -2,41 +2,73 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
-*/
+/* Water Supply Monitoring Design System - Hindi-first, mobile-first, low-literacy optimized */
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Core Brand Colors - Water & Earth Theme */
+    --background: 210 12% 97%;
+    --foreground: 215 25% 16%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 215 25% 16%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 215 25% 16%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Water Blue Primary */
+    --primary: 205 87% 35%;
+    --primary-foreground: 0 0% 100%;
+    --primary-hover: 205 87% 30%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Operational Green */
+    --secondary: 145 63% 42%;
+    --secondary-foreground: 0 0% 100%;
+    --secondary-hover: 145 63% 37%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    /* Alert Orange */
+    --alert: 32 95% 52%;
+    --alert-foreground: 0 0% 100%;
+    --alert-hover: 32 95% 47%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    /* Status Colors */
+    --status-working: 145 63% 42%;
+    --status-faulty: 0 84% 60%;
+    --status-maintenance: 48 96% 53%;
+    --status-offline: 215 16% 47%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    /* Muted/Neutral */
+    --muted: 210 12% 92%;
+    --muted-foreground: 215 16% 47%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --accent: 210 12% 92%;
+    --accent-foreground: 215 25% 16%;
 
-    --radius: 0.5rem;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 210 12% 85%;
+    --input: 210 12% 92%;
+    --ring: 205 87% 35%;
+
+    /* Design System Extensions */
+    --radius: 0.75rem;
+    --radius-lg: 1rem;
+    --radius-xl: 1.5rem;
+
+    /* Gradients */
+    --gradient-water: linear-gradient(135deg, hsl(var(--primary)), hsl(205 87% 45%));
+    --gradient-status: linear-gradient(135deg, hsl(var(--status-working)), hsl(145 63% 52%));
+    --gradient-alert: linear-gradient(135deg, hsl(var(--alert)), hsl(32 95% 62%));
+
+    /* Shadows */
+    --shadow-soft: 0 4px 12px hsl(var(--primary) / 0.15);
+    --shadow-card: 0 2px 8px hsl(var(--foreground) / 0.1);
+    --shadow-button: 0 2px 4px hsl(var(--primary) / 0.2);
+
+    /* Touch Targets - Optimized for rural use */
+    --touch-target: 3rem;
+    --touch-target-lg: 4rem;
 
     --sidebar-background: 0 0% 98%;
 
@@ -100,6 +132,65 @@ All colors MUST be HSL.
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-sans;
+  }
+}
+
+@layer components {
+  /* Touch-friendly button sizes */
+  .btn-touch {
+    @apply h-12 min-w-12 px-6 text-base font-medium;
+  }
+  
+  .btn-touch-lg {
+    @apply h-16 min-w-16 px-8 text-lg font-semibold;
+  }
+
+  /* Status indicators */
+  .status-working {
+    @apply bg-status-working text-white;
+  }
+  
+  .status-faulty {
+    @apply bg-status-faulty text-white;
+  }
+  
+  .status-maintenance {
+    @apply bg-status-maintenance text-black;
+  }
+  
+  .status-offline {
+    @apply bg-status-offline text-white;
+  }
+
+  /* Gradient utilities */
+  .bg-gradient-water {
+    background: var(--gradient-water);
+  }
+  
+  .bg-gradient-status {
+    background: var(--gradient-status);
+  }
+  
+  .bg-gradient-alert {
+    background: var(--gradient-alert);
+  }
+
+  /* Shadow utilities */
+  .shadow-soft {
+    box-shadow: var(--shadow-soft);
+  }
+  
+  .shadow-card {
+    box-shadow: var(--shadow-card);
+  }
+  
+  .shadow-button {
+    box-shadow: var(--shadow-button);
+  }
+
+  /* Hindi typography */
+  .text-hindi {
+    @apply font-sans leading-relaxed;
   }
 }

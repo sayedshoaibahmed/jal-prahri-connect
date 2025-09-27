@@ -22,10 +22,23 @@ export default {
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
+          hover: "hsl(var(--primary-hover))",
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
           foreground: "hsl(var(--secondary-foreground))",
+          hover: "hsl(var(--secondary-hover))",
+        },
+        alert: {
+          DEFAULT: "hsl(var(--alert))",
+          foreground: "hsl(var(--alert-foreground))",
+          hover: "hsl(var(--alert-hover))",
+        },
+        status: {
+          working: "hsl(var(--status-working))",
+          faulty: "hsl(var(--status-faulty))",
+          maintenance: "hsl(var(--status-maintenance))",
+          offline: "hsl(var(--status-offline))",
         },
         destructive: {
           DEFAULT: "hsl(var(--destructive))",

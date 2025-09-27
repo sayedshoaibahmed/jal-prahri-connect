@@ -1,0 +1,83 @@
+{
+  "auth": {
+    "login": "लॉगिन करें",
+    "phone": "फोन नंबर",
+    "otp": "ओटीपी",
+    "pin": "पिन",
+    "enterPhone": "अपना फोन नंबर दर्ज करें",
+    "enterOtp": "ओटीपी दर्ज करें",
+    "enterPin": "अपना पिन दर्ज करें",
+    "sendOtp": "ओटीपी भेजें",
+    "verify": "सत्यापित करें",
+    "setPin": "4 अंकों का पिन सेट करें",
+    "offlineLogin": "ऑफ़लाइन लॉगिन"
+  },
+  "operator": {
+    "dashboard": "ऑपरेटर डैशबोर्ड",
+    "pumpList": "पंप सूची",
+    "addReport": "रिपोर्ट करें",
+    "waterQuality": "जल गुणवत्ता जोड़ें",
+    "start": "शुरू करें",
+    "stop": "बंद करें",
+    "working": "काम कर रहा",
+    "faulty": "खराब",
+    "maintenance": "मरम्मत में",
+    "hoursToday": "आज के घंटे",
+    "hoursWeek": "सप्ताह के घंटे",
+    "lastMaintenance": "अंतिम मरम्मत"
+  },
+  "gp": {
+    "dashboard": "ग्राम पंचायत डैशबोर्ड",
+    "pumpOverview": "पंप अवलोकन",
+    "alerts": "अलर्ट",
+    "reports": "रिपोर्ट्स",
+    "map": "नक्शा",
+    "totalPumps": "कुल पंप",
+    "workingPumps": "काम करने वाले पंप",
+    "faultyPumps": "खराब पंप",
+    "pendingReports": "लंबित रिपोर्ट्स"
+  },
+  "waterQuality": {
+    "ph": "पीएच",
+    "turbidity": "टर्बिडिटी (NTU)",
+    "chlorine": "फ्री क्लोरीन",
+    "temperature": "तापमान (°C)",
+    "testImage": "टेस्ट किट फोटो",
+    "submit": "जमा करें",
+    "normal": "सामान्य",
+    "warning": "चेतावनी",
+    "critical": "गंभीर"
+  },
+  "report": {
+    "voiceReport": "आवाज रिपोर्ट",
+    "location": "स्थान",
+    "pump": "पंप",
+    "generalArea": "सामान्य क्षेत्र",
+    "record": "रिकॉर्ड करें",
+    "submit": "भेजें",
+    "description": "विवरण"
+  },
+  "status": {
+    "online": "ऑनलाइन",
+    "offline": "ऑफ़लाइन",
+    "syncing": "सिंक हो रहा है",
+    "syncPending": "सिंक लंबित",
+    "lastSync": "अंतिम सिंक"
+  },
+  "common": {
+    "save": "सेव करें",
+    "cancel": "रद्द करें",
+    "edit": "संपादित करें",
+    "delete": "हटाएं",
+    "view": "देखें",
+    "approve": "स्वीकृत करें",
+    "pending": "लंबित",
+    "completed": "पूर्ण",
+    "loading": "लोड हो रहा है...",
+    "error": "त्रुटि",
+    "success": "सफल",
+    "today": "आज",
+    "yesterday": "कल",
+    "thisWeek": "इस सप्ताह"
+  }
+}
